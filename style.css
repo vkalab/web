@@ -37,7 +37,7 @@ body {
 .container {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 0;
 }
 
 /* Header a navigace */
@@ -134,10 +134,10 @@ body {
 
 /* Hero sekce */
 .hero {
-    min-height: 100vh;
+    min-height: 55vh;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    padding: 0rem 0;
     background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
 }
 
@@ -219,6 +219,7 @@ body {
     justify-content: center;
     max-width: 100%;
     height: auto;
+    text-align: bottom;
 }
 
 .profile-card {
@@ -230,23 +231,7 @@ body {
     max-width: 280px;
 }
 
-.profile-photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background: var(--gradient);
-    margin: 0 auto 1rem;
-    position: relative;
-}
 
-.profile-photo::after {
-    content: '👨‍💻';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3rem;
-}
 
 .status-indicator {
     display: flex;
@@ -279,7 +264,7 @@ body {
 
 /* Sekce styly */
 section {
-    padding: 5rem 0;
+    padding: 0rem 0;
 }
 
 .section-title {
@@ -636,7 +621,7 @@ section {
 
     .contact-content {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 0rem;
     }
 
     .footer-content {
